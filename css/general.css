@@ -3,5 +3,9 @@
 }
 
 .img-resize {
-  height: 2.4rem;
+  height: 2rem;
+}
+
+.underline {
+  text-decoration: underline;
 }
