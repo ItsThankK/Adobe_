@@ -31,6 +31,7 @@ body {
 }
 
 .header-toolbar {
+  background-color: #f8f9fa;
   padding: 0.2rem 0.8rem;
 }
 
@@ -38,13 +39,20 @@ body {
 .nav-bar-list,
 .nav-bar-icons {
   list-style: none;
+  text-decoration: none;
 }
 
 .toolbar-list-items:link,
 .toolbar-list-items:visited {
   color: #555;
   text-decoration: none;
-  margin-right: 1.2rem;
+  padding: 0.2rem 0.8rem;
+}
+
+.toolbar-list-items:hover,
+.toolbar-list-items:active {
+  background-color: #339af0;
+  color: #fff;
 }
 
 .toolbar-list-items span {
@@ -54,21 +62,43 @@ body {
 .header-nav-bar {
   background-color: #e9ecef;
   border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
   padding: 1.2rem 2.4rem;
 }
 
 .nav-bar-list {
-  margin-right: auto;
+  /* margin-right: auto;
+  gap: 2.4rem; */
 }
 
+.nav-bar-list-items:link,
+.nav-bar-list-items:visited {
+  text-decoration: none;
+}
+
+
 .nav-bar-search-box {
+  margin-right: 1.6rem;
   padding: 0.5rem;
   border: 0.1rem solid #999;
   border-radius: 0.4rem;
 }
 
+.nav-bar-icon {
+  margin-left: 2.4rem;
+  list-style: none;
+}
 
+.nav-bar-icon-link:hover,
+.nav-bar-icon-link:visited {
 
+}
+
+.nav-bar-icons {
+  stroke: yellow;
+  width: 2.4rem;
+  height: 2.4rem;
+}
 
 /* .main {
 }
